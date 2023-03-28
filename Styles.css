@@ -94,6 +94,16 @@
     box-shadow: 2px 2px 5px #9c9c9c;
 }
 
+.image_block{
+    text-align: center;
+}
+
+.imgchar{
+    display: inline-block;
+    height: 370px;
+    margin: 20px;
+    
+}
 
 .lista{
     overflow: scroll;
