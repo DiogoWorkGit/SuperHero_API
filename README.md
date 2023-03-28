@@ -7,9 +7,9 @@
   Nenhum, pelo projeto rodar em HTML, CSS e JS, o usuário só precisa de um navegador para rodar a aplicação
   
   ### Tecnologias utilizadas:
-  * HyperText Markup Language
-  * Cascading Style Sheets
-  * JavaScript
+  * HyperText Markup Language (HTML)
+  * Cascading Style Sheets (CSS)
+  * JavaScript (JS)
   
   ### Autor:
   Diogo Pereira Lima
