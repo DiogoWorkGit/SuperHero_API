@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;500;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    margin: auto;
+    text-align: center;
+
+}
+
+.titulo_page{
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 5px;
+    margin-top: 30px;
+}
+
+.subttl_page{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.item_titulo{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.item_desc{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.lista{
+    margin: auto;
+    margin-top: 20px;
+}
+
+.lista_itens{
+    margin-bottom: 20px;
+    border: 1px solid #942a26 ;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px #b8b8b8;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+
+.lista_itens:hover{
+    background-color: #942a26;
+    color: #FFFFFF;
+    box-shadow: 2px 2px 5px #555555;
+}
+
+.input_text{
+    display: inline-block;
+    border: 1px solid ;
+    font-size: 150%;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 10px 10px 10px;
+    margin:5px;
+    background-color: #FFFFFF;
+    transition-duration: 2s;
+}
+
+.input_text:focus{
+    outline: none;
+}
+
+.button_search{
+    padding: 10px 35px 10px 35px;
+    margin: 5px;
+    font-size: 150%;
+    position: relative;
+    display: inline;
+    background-color: #da413b;
+    box-shadow: 2px 2px 5px #474747;
+    border: 1px solid #942a26;
+    border-radius: 4px;
+    color: #bbbbbb;
+    font-size: 130%;
+    text-transform: uppercase;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.button_search:hover{
+    background: #b1322d;
+    color: #FFFFFF;
+    box-shadow: 2px 2px 5px #9c9c9c;
+}
+
+.image_block{
+    text-align: center;
+}
+
+.imgchar{
+    display: inline-block;
+    height: 370px;
+    margin: 20px;
+    
+}
+
+.lista{
+    overflow: scroll;
+    height: 500px;
+    width: 500px;
+}
