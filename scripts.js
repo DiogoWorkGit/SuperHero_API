@@ -37,9 +37,12 @@ function puxarcaps() {
                             desc = "Infelizmente a descrição desse capitulo não existe ou não está catalogada"
                         }
 
-                        const markup = `<li class="lista_itens">Titulo do capítulo: ${titulo} <br>Descrição do capítulo: ${desc}</li>`;
+                        const markup = `<div class="lista_itens">
+                        <p class = "item_titulo"><strong>Título</strong>: ${titulo}</p> 
+                        <p class = "item_desc"><strong>Descrição</strong>: ${desc}</p>
+                        </div>`;
                     
-                        document.querySelector('ul').insertAdjacentHTML('beforeend',markup);
+                        document.querySelector('.lista').insertAdjacentHTML('beforeend',markup);
                     })
                 })
             });
