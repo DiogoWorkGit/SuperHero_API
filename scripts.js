@@ -17,6 +17,7 @@ function puxarcaps() {
             return res.json();
         })
         .then(data =>{
+            console.log(data)
             var heroi = data.data.results
             console.log(heroi)
             heroi.forEach(element => {
