@@ -3,13 +3,13 @@
   
   #### SuperHero API: Finalizada!!
   
-  ###Pré requisitos:
+  ### Pré requisitos:
   Nenhum, pelo projeto rodar em HTML, CSS e JS, o usuário só precisa de um navegador para rodar a aplicação
   
-  ###Tecnologias utilizadas:
+  ### Tecnologias utilizadas:
   * HyperText Markup Language
   * Cascading Style Sheets
   * JavaScript
   
-  ###Autor:
+  ### Autor:
   Diogo Pereira Lima
